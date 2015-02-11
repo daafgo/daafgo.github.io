@@ -82,12 +82,18 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #000;
+    
+    background: url(../img/Teide11.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 header .container {
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 50px;
+    height:800px;
 }
 
 header img {
@@ -398,6 +404,8 @@ footer .footer-below {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
+
 
 .portfolio-modal .modal-content h2 {
     margin: 0;
